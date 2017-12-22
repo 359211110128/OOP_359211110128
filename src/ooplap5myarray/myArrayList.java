@@ -9,7 +9,7 @@ public class myArrayList {
         list.add(name);
         System.out.println(list);
         list.add("NOK");
-        list.add("DAH");
+        list.add("NEW");
         System.out.println(list);
         list.add(2,"ADAM");
         System.out.println(list);
