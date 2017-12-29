@@ -4,7 +4,7 @@ public class StringCompare {
     public static void main (String[] args){
 
                 String str1 = "Hello";
-                String str2 = "Helloooo";
+                String str2 = "Hello";
                 //compare String
                 //type 1 (==) T2F
                 if (str1 == str2) System.out.println("true");
