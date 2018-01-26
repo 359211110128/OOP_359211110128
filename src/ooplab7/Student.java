@@ -21,11 +21,11 @@ public class Student {
     public Student(){}
     //creat by own
     public Student(String id,String n,String pid,String a,){
-       //assing data to class properties
-       this.id = id;
-       this.name = n;
-       this.pid = pid;
-       this.address = a;
+        //assing data to class properties
+        this.id = id;
+        this.name = n;
+        this.pid = pid;
+        this.address = a;
     }
     //getter and setter mathods
 
