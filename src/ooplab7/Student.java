@@ -4,52 +4,69 @@ package ooplab7;
 // 2.Name
 // 3.person ID
 // 4.Address
-//Access Control
-//1. public
-//2. private
-//3. protected
+// Access Control
+// 1. public
+// 2. private
+// 3. protected
+
+
+
+
 public class Student {
     //properties of Student class
+    public static int age;
+    public String group;
     private String id;
     private String name;
     private String pid;
     private String address;
     //Constructor
-    //default constructor
+    //default Constructor
     public Student(){}
     //create by own
-    public Student (String id, String n, String pid, String a){
-        //assing data to class properties
-        this.id = id;
+    public Student(String id, String n,String pid, String a){
+        //assign data to class properties
+
         this.name = n;
         this.pid = pid;
         this.address = a;
     }
     //getter and setter methods
-    public String getId(){
-        return this.id;
-    }
-    public void setId(String id){
-        this.id = id;
-    }
-    public String getName(){
-        return this.name;
-    }
-    public void setName(String n){
-        this.name = n;
-    }
-    public String getpid(){
-        return this.pid;
-    }
-    public void setPid(String pid){
-        this.pid = pid;
-    }
-    public String getaddress(){
-        return this.address;
-    }
-    public void setAddress(String a){
-        this.address = a;
+
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", pid='" + pid + '\'' +
+                ", address='" + address + '\'' +
+                '}';
     }
 
+    public String getId() {
+        return this.id;
+    }
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getName() {
+        return this.name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getPid() {
+        return this.pid;
+    }
+    public void setPid(String pid) {
+        this.id = pid;
+    }
+    public String getAddress() {
+        return this.address;
+    }
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
 }//class
